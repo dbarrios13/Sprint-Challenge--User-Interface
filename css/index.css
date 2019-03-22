@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -136,11 +135,167 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
     font-size: 14px;
+    margin-top: 20px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 14px 28px;
+}
+
+footer nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+/******** Navigation  ********/
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 20px 0;
+}
+
+.navigation nav a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+
+.navigation nav a:hover{
+    font-size: 30px;
+}
+
+/******** Header Image *******/
+
+header img {
+    margin: 20px 0;
+}
+
+/******** Boxes ************/
+
+.boxes div:nth-child(1) {
+    background-color: teal;
+}
+.boxes div:nth-child(2) {
+    background-color: gold;
+}
+.boxes div:nth-child(3) {
+    background-color: cadetblue;
+}
+.boxes div:nth-child(4) {
+    background-color: coral;
+}
+.boxes div:nth-child(5) {
+    background-color: crimson;
+}
+.boxes div:nth-child(6) {
+    background-color: forestgreen;
+}
+.boxes div:nth-child(7) {
+    background-color: darkorchid;
+}
+.boxes div:nth-child(8) {
+    background-color: hotpink;
+}
+.boxes div:nth-child(9) {
+    background-color: indigo;
+}
+.boxes div:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+/******* About Page ********/
+
+.about-top-content {
+    padding-bottom: 20px;
+}
+.about-middle-content {
+    border-top: 1px dashed black;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-container {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding: 20px 10px;
+    margin: 5px;
+}
+
+.content-container h3 {
+    padding-top: 10px;
+}
+
+.content-container button{
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    padding: 5px 20px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.content-container img{
+    text-align: center;
+}
+
+.about-bottom-content {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/**** Contact Page  ******/
+
+.contact-header{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-img {
+    margin: 20px 0;
+    width: 600px;
+    height: 360px;
+    border-radius: 5px;
+}
+.form  {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.contact-form input{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: none;
+}
+
+.contact-form textarea {
+    resize: none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form input[type=button]{
+    font-size: 15px;
+}
+
+.contact-form input[type=button]:hover{
+    background-color: black;
+    color: white;
 }
